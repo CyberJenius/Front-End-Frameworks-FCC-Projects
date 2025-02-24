@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+#quote-box {
+  background-color: white;
+  margin: auto;
+  align-self: center;
+  border-radius: 15px;
+}
+#quote-box #icon-holder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+#quote-box #icon-holder a {
+  border: solid 2px;
+  background-color: white;
+  width: 40px;
+  height: auto;
+}
+#quote-box #icon-holder button {
+  background-color: white;
+}
+#quote-box #icon-holder button:hover {
+  transition: 0.1s;
+  background-color: rgb(194, 189, 189);
+}/*# sourceMappingURL=styles.css.map */
