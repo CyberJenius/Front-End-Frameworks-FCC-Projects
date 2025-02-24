@@ -12,6 +12,7 @@ header h1 {
   margin: auto;
   align-self: center;
   border-radius: 15px;
+  width: 660px;
 }
 #quote-box #icon-holder {
   margin-top: 10px;
@@ -26,6 +27,11 @@ header h1 {
   background-color: white;
   width: 40px;
   height: auto;
+}
+#quote-box #icon-holder a:hover {
+  color: white;
+  background-color: #0d6efd;
+  transition: 0.3s;
 }
 #quote-box #icon-holder button {
   background-color: white;

@@ -26,6 +26,11 @@ header{
       background-color: white;
       width: 40px;
       height: auto;
+      &:hover{
+        color: white;
+        background-color: #0d6efd;
+        transition: .3s;
+      }
     }
     button{
       background-color: white;
