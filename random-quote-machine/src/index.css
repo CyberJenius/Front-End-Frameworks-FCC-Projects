@@ -5,14 +5,17 @@ body {
 header h1 {
   text-align: center;
   color: white;
+  border-bottom: solid 1px white;
+  margin-top: 15px;
 }
 
 #quote-box {
   background-color: white;
   margin: auto;
+  width: 660px;
+  height: 300px;
   align-self: center;
   border-radius: 15px;
-  width: 660px;
 }
 #quote-box #icon-holder {
   margin-top: 10px;
@@ -35,8 +38,9 @@ header h1 {
 }
 #quote-box #icon-holder button {
   background-color: white;
+  border: solid 1px grey;
 }
 #quote-box #icon-holder button:hover {
   transition: 0.1s;
   background-color: rgb(194, 189, 189);
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=index.css.map */

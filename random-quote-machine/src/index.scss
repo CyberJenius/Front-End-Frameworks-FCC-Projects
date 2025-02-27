@@ -6,12 +6,16 @@ header{
   h1{
     text-align: center;
     color: white;
+    border-bottom: solid 1px white;
+    margin-top: 15px;
   }
 }
 
 #quote-box{
   background-color: white;
   margin: auto;
+  width:660px;
+  height: 300px;
   align-self: center;
   border-radius: 15px;
   #icon-holder{
@@ -34,6 +38,7 @@ header{
     }
     button{
       background-color: white;
+      border: solid 1px grey;
     &:hover{
       transition: .1s;
       background-color: rgb(194, 189, 189)

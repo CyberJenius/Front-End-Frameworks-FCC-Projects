@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-  <html lang="en">
+<!doctype html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/49b9841e83.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"content="IE=edge">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <link href = "styles.css" rel = "stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Quote Machine</title>
   </head>
   <body>
-    <header>
-      <h1 class = "header page-header">Share Inspiration!</h1>
-    </header>
-    <div id = "quote-box" class = "container">
-      <p id = "text"></p>
-      <p id = "author"></p>
-      <div id = "icon-holder">
-        <a id = "tweet-quote" class = "btn" href = "https://www.twitter.com/intent/tweet"><i class="fa-brands fa-x-twitter"></i></a>
-        <a id= "tumblr-quote" class = "btn" href = ""><i class="fa-brands fa-tumblr"></i></a>
-        <button id = "new-quote" class = "btn">Next Quote</button>
-      </div>
-    </div>
-    <script src = "script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
